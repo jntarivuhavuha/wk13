@@ -1,0 +1,203 @@
+
+----------- Directory --------------*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main {
+	margin: 0 auto;
+	padding: 0.5rem;
+	max-width: 1200px;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.menu {
+	margin: 0.5rem auto;
+	padding: 0.5rem;
+	text-align: center;
+   
+}
+
+
+.menu button {
+	padding: 1rem;
+	font-weight: 700;
+        
+}
+
+article,
+section {
+margin: 0.5rem;
+padding-left: 2rem;
+padding-bottom: 2rem;
+padding-top: 2rem;
+
+}
+
+section {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: gray;
+}
+
+section img {
+    width: 400px;
+    height: 200px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	align-items: center;
+}
+
+.grid {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid section {
+	flex-direction: column;
+	text-align: center;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}
+
+.grid h3 {
+	font-family: "Caveat", cursive;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+
+.list section > * {
+	margin: 0 1rem;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.list section:nth-child(even) {
+	background-color: #bed;
+}
+
+section h3 {
+	font-size: 1.5rem;
+}
+
+section a {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 0.9rem;
+}
+
+img {
+	max-width: 100%; /* Images are jerks - Seattle*/
+}
+
+
+a {
+color: #0609f0;
+}
+
+
+
+section:hover {
+    background-color:#6C5B7B; 
+
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+    
+  }
+ 
+    form {
+    width: 1200px;
+    padding-bottom: 10px;
+    margin: auto;
+  }
+  
+  input[type=submit]:hover {
+    background-color: gray;
+  }
+
+
+
+  nav {
+    padding: 1px;
+  }
+
+
+
+button {
+padding: 20px;
+background-color: green;
+border-radius: 20px;
+}
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+
